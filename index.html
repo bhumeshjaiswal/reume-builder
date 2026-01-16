@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Digital Resume Builder</h1>
+
+    <div class="main">
+        <!-- Form Section -->
+        <div class="form-section">
+            <h2>Enter Your Details</h2>
+
+            <label>Name</label>
+            <input type="text" id="name" placeholder="Your Name">
+
+            <label>Career Objective</label>
+            <textarea id="objective" placeholder="Your career objective"></textarea>
+
+            <label>Skills</label>
+            <input type="text" id="skills" placeholder="HTML, CSS, JavaScript">
+
+            <label>Education</label>
+            <textarea id="education" placeholder="Your education details"></textarea>
+        </div>
+
+        <!-- Resume Preview -->
+        <div class="resume-section">
+            <h2>Live Resume Preview</h2>
+
+            <div class="resume">
+                <h3 id="previewName">Your Name</h3>
+
+                <h4>Career Objective</h4>
+                <p id="previewObjective">Your career objective will appear here.</p>
+
+                <h4>Skills</h4>
+                <p id="previewSkills">Your skills will appear here.</p>
+
+                <h4>Education</h4>
+                <p id="previewEducation">Your education details will appear here.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
